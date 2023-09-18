@@ -1,0 +1,212 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+    <meta charset="utf-8" />
+    <link href="~/Css/Layout.css" rel="stylesheet" />
+    <link rel="profile" href="http://gmpg.org/xfn/11">
+    <link rel="pingback" href="https://thongthai.work/xmlrpc.php">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style type="text/css">
+        img.wp-smiley,
+        img.emoji {
+            display: inline !important;
+            border: none !important;
+            box-shadow: none !important;
+            height: 1em !important;
+            width: 1em !important;
+            margin: 0 .07em !important;
+            vertical-align: -0.1em !important;
+            background: none !important;
+            padding: 0 !important;
+        }
+    </style>
+    <link href="~/Content/bootstrap.css" rel="stylesheet" />
+    <!-- Latest compiled and minified CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="javascript:void(0)">Logo</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="mynavbar">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="~/home/index">Trang Chủ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="~/product/index">Tour</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="~/brand/index">Hoá Đơn</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Admin
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <li><a class="dropdown-item" href="#">Thông Tin về Tôi</a></li>
+                            <li><a class="dropdown-item" href="#">Liên Hệ</a></li>
+                            <li><a class="dropdown-item" href="#">Địa chỉ </a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <form class="d-flex" style="border-radius:50%">
+                    <input class="form-control me-2" type="text" placeholder="Search">
+                    <button class="btn btn-primary" type="button">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <div>
+        @RenderBody()
+    </div>
+    <br><br>
+    <br><br>
+    <br><br>
+    <footer id="na-footer" class="na-footer  footer-1" style="background-color:black">
+
+        <!--    Footer center-->
+        <!--    Footer center-->
+        <div class="footer-center clearfix" >
+            <div class="container">
+                <div class="container-inner">
+                    <div class="row">
+                        <div class="col-md-4 col-sm-6 col-xs-12">
+                            <div id="contact_info-1" class="widget first widget_contact_info">
+                                <div class="contact-inner clearfix">
+                                    <img class="about-image" src="/anh/Logo23.jpg" style="height:200px" alt="img">
+                                    <p class="description">
+                                        <span>Với tiêu chí chia sẻ là sức mạnh, mục tiêu của trang Web là để chia sẻ kiến thức, những bài viết hay và những tiểu luận của sinh viên. Ngoài ra, một số điểm cập nhật của T. Nghĩa sẽ được post nhờ lên đây ^^</span>
+                                    </p>
+
+                                    <ul class="contact-info">
+                                        <li>
+                                            <b>Address: </b>
+                                            <span>32/4a,khu phố 3 , Đường Tân Thới Nhất,Quận 12, TPHCM</span>
+                                        </li>
+
+                                        <li>
+                                            <b>Phone: </b>
+                                            <span>0898144013</span>
+                                        </li>
+
+
+
+                                        <li>
+                                            <b>Email: </b>
+                                            <a href="mailto:trongnghia77@live.com"><span>NguyenNhuDat@live.com</span></a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-2 col-sm-6 col-xs-12">
+                            <div id="nav_menu-2" class="widget first widget_nav_menu">
+                                <h4>Ứng dụng di động</h4>
+                                <div class="ft-app">
+                                    
+                                    <a href="https://travel.com.vn/Content/Theme/images/ggp.webp" rel="nofollow noreferrer" target="_blank" name="Tải app" title="Tải app">
+                                        <img src="/anh/Anhgg.png" alt="vietravel on apple" width="132" height="44" loading="lazy">
+                                    </a>
+                                    <br><br>
+                                  
+                                    <a href="https://travel.com.vn/Content/Theme/images/ggp.webp" rel="nofollow noreferrer" target="_blank" name="Tải app" title="Tải app">
+                                        <img src="/anh/Appstore.png" alt="vietravel on apple" width="132" height="44" loading="lazy">
+                                    </a>
+                                </div>
+                                <div class="mb-app">
+                                    <div class="android">
+                                        <p>Android</p>
+                                        <a href="https://travel.com.vn/Content/Theme/images/ggp.webp" rel="nofollow noreferrer" target="_blank" name="Tải app" title="Tải app">
+                                            <img src="/anh/maQR1.png" alt="image" width="132" height="132" loading="lazy">
+                                        </a>
+                                    </div>
+                                    <div class="ios">
+                                        <p>iOS</p>
+                                        <a href="https://travel.com.vn/Content/Theme/images/ggp.webp" rel="nofollow noreferrer" target="_blank" name="Tải app" title="Tải app">
+                                            <img src="/anh/maQR2.png" alt="vietravel on paly store" alt="image" width="132" height="132" loading="lazy">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6 col-xs-12">
+                            <div id="twitter-2" class="widget first widget_twitter">
+                                <h2 class="widgettitle">Twitter</h2>        <div class="redmag-twitter">
+                                    <iframe id="twitter-widget-0" scrolling="no" frameborder="0" allowtransparency="true" allowfullscreen="true" class="twitter-timeline twitter-timeline-rendered" style="position: absolute; visibility: hidden; display: block; width: 0px; height: 0px; padding: 0px; border: none;"></iframe><a class="twitter-timeline twitter-timeline-error" href="https://twitter.com/trongnghia00" data-chrome="noheader noscrollbar nofooter noborders transparent" data-width="300" data-height="250" data-theme="dark" data-twitter-extracted-i1694943842710642805="true">
+                                        Tweets by                       Nguyễn Như Đạt
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6 col-xs-12" style="margin: 0px; padding: 0px; border-width: 0px;">
+                            <div class="widget first thong-widget">
+                                <script async="" src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9801802458557626" crossorigin="anonymous" data-checked-head="true"></script><ins class="adsbygoogle" style="display: block; text-align: center; height: 0px;" data-ad-client="ca-pub-9801802458557626" data-ad-slot="1786152058" data-ad-layout="in-article" data-ad-format="fluid" data-adsbygoogle-status="done" data-ad-status="unfilled"><div id="aswift_1_host" tabindex="0" title="Advertisement" aria-label="Advertisement" style="border: none; height: 0px; width: 0px; margin: 0px; padding: 0px; position: relative; visibility: visible; background-color: transparent; display: inline-block; overflow: hidden; opacity: 0;"><iframe id="aswift_1" name="aswift_1" browsingtopics="true" style="left: 0px; position: absolute; top: 0px; border: 0px; width: 0px; height: 0px;" sandbox="allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation" width="0" height="0" frameborder="0" marginwidth="0" marginheight="0" vspace="0" hspace="0" allowtransparency="true" scrolling="no" allow="attribution-reporting" src="https://googleads.g.doubleclick.net/pagead/ads?client=ca-pub-9801802458557626&amp;output=html&amp;h=274&amp;slotname=1786152058&amp;adk=3189710291&amp;adf=1143839545&amp;pi=t.ma~as.1786152058&amp;w=328&amp;fwrn=4&amp;lmt=1694943841&amp;rafmt=11&amp;format=328x274&amp;url=https%3A%2F%2Fthongthai.work%2Fauthor%2Fnghiadnt%2F%3Fi%3D1&amp;wgl=1&amp;uach=WyJXaW5kb3dzIiwiMTAuMC4wIiwieDg2IiwiIiwiMTE2LjAuNTg0NS4xODgiLFtdLDAsbnVsbCwiNjQiLFtbIkNocm9taXVtIiwiMTE2LjAuNTg0NS4xODgiXSxbIk5vdClBO0JyYW5kIiwiMjQuMC4wLjAiXSxbIkdvb2dsZSBDaHJvbWUiLCIxMTYuMC41ODQ1LjE4OCJdXSwwXQ..&amp;dt=1694943841073&amp;bpp=2&amp;bdt=1009&amp;idt=325&amp;shv=r20230913&amp;mjsv=m202309120101&amp;ptt=9&amp;saldr=aa&amp;abxe=1&amp;cookie=ID%3Db1e30efef0643eed-228dbf21fad7004a%3AT%3D1667221510%3ART%3D1667221510%3AS%3DALNI_MY5Rwp9O83_eJy0Mmv4ZkUwDnM_SQ&amp;gpic=UID%3D00000b7209fd065e%3AT%3D1667221510%3ART%3D1667955481%3AS%3DALNI_MbRZt4vTKFAY3qTrmeGtqlqFHHPlg&amp;prev_fmts=0x0&amp;nras=1&amp;correlator=2699851359439&amp;frm=20&amp;pv=1&amp;ga_vid=1865251827.1694943841&amp;ga_sid=1694943841&amp;ga_hid=1114874650&amp;ga_fc=0&amp;rplot=4&amp;u_tz=420&amp;u_his=3&amp;u_h=1080&amp;u_w=1920&amp;u_ah=1080&amp;u_aw=1843&amp;u_cd=24&amp;u_sd=1&amp;dmc=8&amp;adx=1285&amp;ady=2293&amp;biw=1826&amp;bih=971&amp;scr_x=0&amp;scr_y=0&amp;eid=44759842%2C44759875%2C44759926%2C44798934%2C44800659%2C44803139%2C31067146%2C31067147%2C31067148%2C31068556&amp;oid=2&amp;pvsid=1158592159016709&amp;tmod=7168575&amp;uas=0&amp;nvt=1&amp;ref=https%3A%2F%2Fthongthai.work%2Fauthor%2Fnghiadnt%2F&amp;fc=1920&amp;brdim=0%2C0%2C0%2C0%2C1843%2C0%2C1843%2C1080%2C1843%2C971&amp;vis=1&amp;rsz=%7C%7ClEebr%7C&amp;abl=CS&amp;pfx=0&amp;fu=128&amp;bc=31&amp;td=1&amp;nt=1&amp;ifi=2&amp;uci=a!2&amp;btvi=1&amp;fsb=1&amp;xpc=QlZkF2JUqP&amp;p=https%3A//thongthai.work&amp;dtd=333" data-google-container-id="a!2" data-google-query-id="CLHc1uytsYEDFZ5gDwIdys0Gnw" data-load-complete="true"></iframe></div></ins>
+                                <script>
+                                    (adsbygoogle = window.adsbygoogle || []).push({});
+                                </script>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--    Footer bottom-->
+        <div class="footer-bottom clearfix">
+            <div class="container">
+                <div class="container-inner">
+                    <div class="row">
+
+                        <div class="col-md-6 col-sm-6">
+                            <div class="coppy-right">
+                                <span> Bản quyền thuộc về Đạtthongthai.work</span>
+                            </div>
+                        </div>
+                        
+                        <div class="col-md-6 col-sm-6 ">
+                         
+                            <div id="redmag_social-2" class="widget first redmag_social">
+                            <div class="redmag-social-icon clearfix">
+                              
+                                <a href="https://www.facebook.com/profile.php?id=100054769046427" target="_blank" title="ion-social-facebook" class="ion-social-facebook">
+                                    <i class="fa-brands fa-facebook">  </i>
+                                </a>
+
+                              
+                                <a href="https://www.instagram.com/nguyennhu2609/" target="_blank" title="ion-social-twitter" class="ion-social-twitter">
+                                    <i class="fa-brands fa-twitter"></i>
+                                </a>
+                                <a href="https://www.instagram.com/nguyennhu2609/" target="_blank" title="ion-social-instagram" class="ion-social-instagram">
+                                    <i class="fa-brands fa-instagram"></i>
+                                </a>
+                                <a href="https://www.youtube.com/channel/UCx04xf017AXRIae3At2dMfw" target="_blank" title="ion-social-youtube" class="ion-social-youtube">
+                                    <i class="fa-brands fa-youtube"></i>
+                                </a>
+                            </div>
+                            </div>
+                        
+                        </div>
+                       
+                          
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </footer>
+</body>
+</html>

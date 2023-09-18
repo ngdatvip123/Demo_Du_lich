@@ -1,0 +1,28 @@
+﻿
+element.style {
+    background-image: url(https://thongthai.work/wp-content/themes/redmag/assets/images/bg_default_footer.jpg);
+}
+na-footer  footer-1{
+   background-image:url(http://divui.com/blog/wp-content/uploads/2018/08/vtimes-696x398.jpg);
+}
+.widget {
+    position: relative;
+}
+div {
+    display: block;
+}
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+#na-footer {
+    font-weight: 400;
+    background: #302f34;
+    color: #bebebe;
+    background-position: center center;
+    background-size: cover;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.13);
+}
+
+

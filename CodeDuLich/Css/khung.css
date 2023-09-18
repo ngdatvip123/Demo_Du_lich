@@ -1,0 +1,90 @@
+﻿:root{
+    -primary-color:#4daf54;
+}
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz@6..96&family=Poppins:ital,wght@0,100;0,200;1,200&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+
+}
+Khung_card{
+    height:100vh;
+    background: linear-gradient(to right,#4cff00,#00ff21)
+}
+
+.cardSP{
+    margin:120px auto;
+    width:300px;
+    height:400px;
+    background:#272d40;
+    padding:20px;
+    border-radius:15px;
+    color:white;
+    position:relative;
+}
+.card_heart , .card_cart{
+    font-size:25px;
+    position:absolute;
+    left:20px;
+    top:15px;
+}
+.card_cart{
+    left:  unset;
+    right:20px;
+}
+.card_img{
+    width:90%;
+    transition:0.5s;
+}
+.card_img img{
+    width:100%;
+    height:100%;
+    object-fit: cover;
+    text-align:center;
+}
+.card_title , .card_price{
+    font-size:25px;
+    font-weight:bold;
+    text-align:center;
+    transition:0.5s;
+}
+.card_title{
+    color: blue;
+}
+.card_action button{
+    background-color:#ff0000;
+    border:none;
+    outline:none;
+    color:white;
+    padding: 10px 20px;
+    border-radius:5px;
+    font-weight:bold;
+    padding-top:10px;
+    margin-right:10px;
+    cursor:pointer;
+}
+
+.card_action button:hover{
+    transform:scale(0.9)
+}
+.cardSP:hover  .card_img{
+    transform:translateY(-90px) rotate(-20deg);
+}
+.cardSP:hover  .card_title {
+    transform:translate(-65px,-40px)
+}
+ .cardSP:hover  .card_price{
+      transform:translate(-50px,-40px)
+ }
+ .card_action{
+     visibility:hidden;
+     opacity:0;
+     transition:0.5s;
+     transition-delay:0.4s;
+ }
+ .cardSP:hover .card_action{
+     visibility:visible;
+     opacity:100;
+ }

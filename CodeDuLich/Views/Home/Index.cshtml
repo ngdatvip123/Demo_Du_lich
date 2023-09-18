@@ -1,0 +1,344 @@
+﻿
+@{
+    ViewBag.Title = "Trang Chủ";
+    Layout = "~/Views/Shared/_LayoutPage1.cshtml";
+}
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+
+<div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+    <!-- Indicators/dots -->
+    <div class="carousel-indicators">
+        <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+        <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+        <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+    </div>
+
+    <!-- The slideshow/carousel -->
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="/anh/Cho.jpg" alt="Los Angeles" class="d-block w-100"
+                 style="height:500px">
+            <div class="carousel-caption">
+                <h3>Thành Phố Hồ Chí Minh</h3>
+                <p>Chợ Bến Thành</p>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="/anh/Cau1.jpg" alt="Chicago" class="d-block w-100"
+                 style="height:500px">
+            <div class="carousel-caption">
+                <h3>Cầu Rồng</h3>
+                <p>Biểu Tượng của Đà Nẵng</p>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="/anh/Lang_Bac.jpg" alt="New York" class="d-block w-100"
+                 style="height:500px">
+            <div class="carousel-caption">
+                <h3>Hà Nội</h3>
+                <p >Người mà chúng ta Biết ơn và Kính trọng Đó là Lăng Bác Hồ Chí Minh</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Left and right controls/icons -->
+    <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+        <span class="carousel-control-next-icon"></span>
+    </button>
+</div>
+<br><br>
+<br><br>
+
+<section class="home-page__destination mb-4">
+    <h3 class="home-page__title mb-4" style="padding:10px">Điểm đến yêu thích</h3>
+    <div id="DiemDenYeuThich">
+
+        <!-- Desktop -->
+        <div class="row g-5 g-lg-3 d-none d-lg-flex">
+            <div class="col-3">
+                <div class="card destination-item">
+                    <div class="position-relative destination-item__image">
+                        <a href="/du-lich-ha-long.aspx">
+                            <img src="https://media.travel.com.vn/destination/dg_200827_HA LONG_322052888.jpg" class="card-img-top img-fluid" alt="Hạ Long" style="height:100%" width="312" height="208" loading="lazy">
+                        </a>
+                        <a href="/du-lich-ha-long.aspx">
+                            <i class="icon icon--ha-long position-absolute"></i>
+                            <div class="destination-item__image__overlay"></div>
+                        </a>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title destination-item__title"><a href="/du-lich-ha-long.aspx">Hạ Long</a></h5>
+                        <p class="card-text destination-item__description">Đã có 10,000 lượt khách</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-3">
+                <div class="card destination-item">
+                    <div class="position-relative destination-item__image">
+                        <a href="/du-lich-da-nang.aspx">
+                            <img src="https://media.travel.com.vn/destination/dg_230628_cau-rong-ve-dem.webp" class="card-img-top img-fluid" alt="Đà Nẵng" style="height:100%" width="312" height="208" loading="lazy">
+                        </a>
+                        <a href="/du-lich-da-nang.aspx">
+                            <i class="icon icon--da-nang position-absolute"></i>
+                            <div class="destination-item__image__overlay"></div>
+                        </a>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title destination-item__title"><a href="/du-lich-da-nang.aspx">Đà Nẵng</a></h5>
+                        <p class="card-text destination-item__description">Đã có 80,779 lượt khách</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-3">
+                <div class="card destination-item">
+                    <div class="position-relative destination-item__image">
+                        <a href="/du-lich-da-lat.aspx">
+                            <img src="https://media.travel.com.vn/destination/dg_230628_da-lat.webp" class="card-img-top img-fluid" alt="Đà Lạt" style="height:100%" width="312" height="208" loading="lazy">
+                        </a>
+                        <a href="/du-lich-da-lat.aspx">
+                            <i class="icon icon--da-lat position-absolute"></i>
+                            <div class="destination-item__image__overlay"></div>
+                        </a>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title destination-item__title"><a href="/du-lich-da-lat.aspx">Đà Lạt</a></h5>
+                        <p class="card-text destination-item__description">Đã có 50,735 lượt khách</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-3">
+                <div class="card destination-item">
+                    <div class="position-relative destination-item__image">
+                        <a href="/du-lich-phu-quoc.aspx">
+                            <img src="https://media.travel.com.vn/destination/dg_230628_phu-quoc.webp" class="card-img-top img-fluid" alt="Phú Quốc" style="height:100%" width="312" height="208" loading="lazy">
+                        </a>
+                        <a href="/du-lich-phu-quoc.aspx">
+                            <i class="icon icon--phu-quoc position-absolute"></i>
+                            <div class="destination-item__image__overlay"></div>
+                        </a>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title destination-item__title"><a href="/du-lich-phu-quoc.aspx">Phú Quốc</a></h5>
+                        <p class="card-text destination-item__description">Đã có 78,510 lượt khách</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="DiemDenYeuThich_NuocNgoai">
+
+        <div class="row g-5 g-lg-3 d-none d-lg-flex">
+            <div class="col-3">
+                <div class="card destination-item">
+                    <div class="position-relative destination-item__image">
+                        <a href="/du-lich-nuoc-ngoai/tour-chau-a.aspx">
+                            <img src="https://media.travel.com.vn/destination/dg_230628_chau-a.webp" class="card-img-top img-fluid" alt="Châu Á" style="height: 100%" width="312" height="208" loading="lazy">
+                        </a>
+                        <a href="/du-lich-nuoc-ngoai/tour-chau-a.aspx">
+                            <i class="icon icon--chau-a position-absolute"></i>
+                            <div class="destination-item__image__overlay"></div>
+                        </a>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title destination-item__title"><a href="/du-lich-nuoc-ngoai/tour-chau-a.aspx">Châu Á</a></h5>
+                        <p class="card-text destination-item__description">Đã có 329,457 lượt khách</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-3">
+                <div class="card destination-item">
+                    <div class="position-relative destination-item__image">
+                        <a href="/du-lich-nuoc-ngoai/tour-chau-my.aspx">
+                            <img src="https://media.travel.com.vn/destination/dg_230628_chau-my.webp" class="card-img-top img-fluid" alt="Châu Mỹ" style="height: 100%" width="312" height="208" loading="lazy">
+                        </a>
+                        <a href="/du-lich-nuoc-ngoai/tour-chau-my.aspx">
+                            <i class="icon icon--chau-my position-absolute"></i>
+                            <div class="destination-item__image__overlay"></div>
+                        </a>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title destination-item__title"><a href="/du-lich-nuoc-ngoai/tour-chau-my.aspx">Châu Mỹ</a></h5>
+                        <p class="card-text destination-item__description">Đã có 4,841 lượt khách</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-3">
+                <div class="card destination-item">
+                    <div class="position-relative destination-item__image">
+                        <a href="/du-lich-nuoc-ngoai/tour-chau-au.aspx">
+                            <img src="https://media.travel.com.vn/destination/dg_230628_chau-au.webp" class="card-img-top img-fluid" alt="Châu Âu" style="height: 100%" width="312" height="208" loading="lazy">
+                        </a>
+                        <a href="/du-lich-nuoc-ngoai/tour-chau-au.aspx">
+                            <i class="icon icon--chau-au position-absolute"></i>
+                            <div class="destination-item__image__overlay"></div>
+                        </a>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title destination-item__title"><a href="/du-lich-nuoc-ngoai/tour-chau-au.aspx">Châu Âu</a></h5>
+                        <p class="card-text destination-item__description">Đã có 15,496 lượt khách</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-3">
+                <div class="card destination-item">
+                    <div class="position-relative destination-item__image">
+                        <a href="/du-lich-nuoc-ngoai/tour-chau-uc.aspx">
+                            <img src="https://media.travel.com.vn/destination/dg_230628_chau-uc.webp" class="card-img-top img-fluid" alt="Châu Úc" style="height: 100%" width="312" height="208" loading="lazy">
+                        </a>
+                        <a href="/du-lich-nuoc-ngoai/tour-chau-uc.aspx">
+                            <i class="icon icon--chau-uc position-absolute"></i>
+                            <div class="destination-item__image__overlay"></div>
+                        </a>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title destination-item__title"><a href="/du-lich-nuoc-ngoai/tour-chau-uc.aspx">Châu Úc</a></h5>
+                        <p class="card-text destination-item__description">Đã có 6,358 lượt khách</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<br><br>
+<link href="~/Css/khung.css" rel="stylesheet" />
+<div class="row">
+    <div class="col-sm">
+        <div class="Khung_card">
+        <div class="cardSP">
+            <div class="card_heart">
+                <i class='bx bx-heart'></i>
+            </div>
+             <div class="card_cart">
+                <i class='bx bx-cart-alt'></i>
+            </div>
+            <div class="card_img" style="text-align:center">
+                <img src="/anh/Remove.png" alt="Alternate Text" />
+            </div>
+            <div class="card_title">
+                Tour Thành Phố HCM
+            </div>
+            <div class="card_price">
+                12.000.000 Đồng
+            </div>
+            <div class="card_size">
+
+            </div>
+      
+        <div class="card_action" style="text-align:center">
+            <button><a href="/product/index">Đặt Lịch</a></button>
+            <button>Yêu Thích</button>
+        </div>
+        </div>
+        </div>
+    </div>
+    <div class="col-sm">
+        <div class="Khung_card">
+            <div class="cardSP">
+                <div class="card_heart">
+                    <i class='bx bx-heart'></i>
+                </div>
+                <div class="card_cart">
+                    <i class='bx bx-cart-alt'></i>
+                </div>
+                <div class="card_img" style="text-align:center">
+                    <img src="/anh/sontra.jpg" alt="Alternate Text" />
+                </div>
+                <div class="card_title">
+                    Tour Đà Nẵng
+                </div>
+                <div class="card_price">
+                    12.000.000 Đồng
+                </div>
+                <div class="card_size">
+
+                </div>
+
+                <div class="card_action" style="text-align:center">
+                    <button><a href="/product/stone">Đặt Lịch</a></button>
+                    <button>Yêu Thích</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-sm">
+        <div class="Khung_card">
+            <div class="cardSP">
+                <div class="card_heart">
+                    <i class='bx bx-heart'></i>
+                </div>
+                <div class="card_cart">
+                    <i class='bx bx-cart-alt'></i>
+                </div>
+                <div class="card_img" style="text-align:center">
+                    <img src="/anh/VanMieu.jpg" alt="Alternate Text" />
+                </div>
+                <div class="card_title">
+                    Tour Hà Nội
+                </div>
+                <div class="card_price">
+                    12.000.000 Đồng
+                </div>
+                <div class="card_size">
+
+                </div>
+
+                <div class="card_action" style="text-align:center">
+                    <button><a href="/product/stour">Đặt Lịch</a></button>
+                    <button>Yêu Thích</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-sm">
+        <div class="Khung_card">
+            <div class="cardSP">
+                <div class="card_heart">
+                    <i class='bx bx-heart'></i>
+                </div>
+                <div class="card_cart">
+                    <i class='bx bx-cart-alt'></i>
+                </div>
+                <div class="card_img" style="text-align:center">
+                    <img src="/anh/HoTay.jpg" alt="Alternate Text" />
+                </div>
+                <div class="card_title">
+                    Tour Đà Nẵng - Hồ Tây
+                </div>
+                <div class="card_price">
+                    12.000.000 Đồng
+                </div>
+                <div class="card_size">
+
+                </div>
+
+                <div class="card_action" style="text-align:center">
+                    <button><a href="/product/stour">Đặt Lịch</a></button>
+                    <button>Yêu Thích</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<br><br>
+<br><br>    
+<div class="box-article">
+    <h3 class="title-article">Bình luận</h3>
+    <div class="desc-article w-clear">
+        <div class="fb-comments fb_iframe_widget fb_iframe_widget_fluid_desktop" data-href="https://themetravel.com.vn:443/tour-dao-binh-ba-binh-hung-binh-tien-3n3d" data-numposts="3" data-colorscheme="light" data-width="100%" fb-xfbml-state="rendered" fb-iframe-plugin-query="app_id=&amp;color_scheme=light&amp;container_width=822&amp;height=100&amp;href=https%3A%2F%2Fthemetravel.com.vn%2Ftour-dao-binh-ba-binh-hung-binh-tien-3n3d&amp;locale=vi_VN&amp;numposts=3&amp;sdk=joey&amp;version=v11.0&amp;width=" style="width: 100%;"><span style="vertical-align: bottom; width: 100%; height: 204px;"><iframe name="f36fd836c157c4" width="1000px" height="100px" data-testid="fb:comments Facebook Social Plugin" title="fb:comments Facebook Social Plugin" frameborder="0" allowtransparency="true" allowfullscreen="true" scrolling="no" allow="encrypted-media" src="https://www.facebook.com/v11.0/plugins/comments.php?app_id=&amp;channel=https%3A%2F%2Fstaticxx.facebook.com%2Fx%2Fconnect%2Fxd_arbiter%2F%3Fversion%3D46%23cb%3Df2f9d34a3164dd%26domain%3Dthemetravel.com.vn%26is_canvas%3Dfalse%26origin%3Dhttps%253A%252F%252Fthemetravel.com.vn%252Ff2e732d3a954ea8%26relation%3Dparent.parent&amp;color_scheme=light&amp;container_width=822&amp;height=100&amp;href=https%3A%2F%2Fthemetravel.com.vn%2Ftour-dao-binh-ba-binh-hung-binh-tien-3n3d&amp;locale=vi_VN&amp;numposts=3&amp;sdk=joey&amp;version=v11.0&amp;width=" style="border: none; visibility: visible; width: 100%; height: 204px;" class=""></iframe></span></div>
+    </div>
+    <div class="social-plugin w-clear">
+        <div class="addthis_inline_share_toolbox_th6n"></div>
+        <div class="zalo-share-button" data-href="https://themetravel.com.vn:443/tour-dao-binh-ba-binh-hung-binh-tien-3n3d" data-oaid="0919861001" data-layout="1" data-color="blue" data-customize="false" style="position: relative; display: inline-block; width: 70px; height: 20px;"><iframe id="1a0d8c6e-dd82-4bec-8e50-298c868468b9" name="1a0d8c6e-dd82-4bec-8e50-298c868468b9" frameborder="0" allowfullscreen="" scrolling="no" width="70px" height="20px" src="https://button-share.zalo.me/share_inline?id=1a0d8c6e-dd82-4bec-8e50-298c868468b9&amp;layout=1&amp;color=blue&amp;customize=false&amp;width=70&amp;height=20&amp;isDesktop=true&amp;url=https%3A%2F%2Fthemetravel.com.vn%3A443%2Ftour-dao-binh-ba-binh-hung-binh-tien-3n3d&amp;d=eyJ1cmwiOiJodHRwczovL3RoZW1ldHJhdmVsLmNvbS52bjo0NDMvdG91ci1kYW8tYmluaC1iYS1iaW5oLWh1bmctYmluaC10aWVuLTNuM2QifQ%253D%253D&amp;shareType=0" style="position: absolute; z-index: 99; top: 0px; left: 0px;"></iframe></div>
+    </div>
+</div>
+
